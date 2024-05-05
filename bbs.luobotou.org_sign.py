@@ -21,11 +21,13 @@ import requests
 from bs4 import BeautifulSoup
 import html
 
+#-----------------------------
 #获取随机想说的话
 mao = "http://api.maomao.tech/api/yiyan"
 todaysay = requests.get(mao)
 todaysay.encoding="UTF-8"
 say=todaysay.text
+#------------------
 
 #心情
 form_data = {
