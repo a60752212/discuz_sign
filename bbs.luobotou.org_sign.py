@@ -5,12 +5,12 @@
 #--------------------------------------
 #此处修改成你的配置
 url='https://zodgame.xyz/plugin.php?id=dsu_paulsign:sign'
-headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-  "Accept-Language": "zh-CN,zh;q=0.9",
-  "Accept-Encoding": "gzip, deflate, br",
+headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0",
+  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+  "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+  "Accept-Encoding": "gzip, deflate, br, zstd",
   "Connection": "keep-alive",
-  "Cookie" : "xxxx_1234_saltkey=xxxxxxxxxx; xxxx_1234_auth=xxxxxxxxxxxxxxxxxxx",
+  "Cookie" : "qhMq_2132_saltkey=qTJZ8sAq; qhMq_2132_auth=2d0cI43kQj6xkLaVuZdHAVC1OTWVDBFhf1BVOiXUsbgJogb%2BES5LRUhANjB3pnhaagp2V9t0hr9HoBfn68cN2R3jnWM",
   "Host": "zodgame.xyz",
   "Referer": "https://zodgame.xyz/plugin.php?id=dsu_paulsign:sign"}
 #以上请修改成自己的配置
@@ -21,19 +21,11 @@ import requests
 from bs4 import BeautifulSoup
 import html
 
-#-----------------------------
-#获取随机想说的话
-mao = "http://api.maomao.tech/api/yiyan"
-todaysay = requests.get(mao)
-todaysay.encoding="UTF-8"
-say=todaysay.text
-#------------------
-
 #心情
 form_data = {
     "formhash": "cb4f0a01",
     "qdxq": "kx",
-    "todaysay": say,
+    "todaysay": "￣︶￣",
 }
 
 #发送请求获取响应
