@@ -11,8 +11,8 @@ headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWeb
   "Accept-Encoding": "gzip, deflate, br",
   "Connection": "keep-alive",
   "Cookie" : "xxxx_1234_saltkey=xxxxxxxxxx; xxxx_1234_auth=xxxxxxxxxxxxxxxxxxx",
-  "Host": "bbs.luobotou.org",
-  "Referer": "https://bbs.luobotou.org/plugin.php?id=dsu_paulsign:sign"}
+  "Host": "zodgame.xyz",
+  "Referer": "https://zodgame.xyz/plugin.php?id=dsu_paulsign:sign"}
 #以上请修改成自己的配置
 #--------------------------------------
 
